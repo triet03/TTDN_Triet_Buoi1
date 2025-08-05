@@ -1,0 +1,49 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+  font-weight: 600;
+}
+
+.table th, .table td {
+  vertical-align: middle !important;
+}
+
+img.avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+input.form-control {
+  border-radius: 6px;
+}
+
+button {
+  border-radius: 6px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  color: #000;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
